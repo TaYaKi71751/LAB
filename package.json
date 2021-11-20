@@ -1,0 +1,11 @@
+{
+  "name": "latest-archlinux-bootstrap",
+  "version": "1.0.0",
+  "description": "GET archlinux-bootstrap-$DATE-$ARCH.tar.gz",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "curl": "^0.1.4",
+    "wget": "^0.0.1",
+    "wget-improved": "^3.2.1"
+  }
+}
