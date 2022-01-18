@@ -2,6 +2,9 @@
   "name": "latest-archlinux-bootstrap",
   "version": "1.0.0",
   "description": "GET archlinux-bootstrap-$DATE-$ARCH.tar.gz",
+  "bin": {
+    "latest-archlinux-bootstrap": "./src/Latest.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "curl": "^0.1.4",
